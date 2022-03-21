@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = ADU
+		owner = CRI
 		victory_points = {
 			10007 1 
 		}
@@ -22,7 +22,7 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = ADU
+		add_core_of = CRI
 	}
 	provinces=
 	{

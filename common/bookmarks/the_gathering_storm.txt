@@ -575,6 +575,20 @@ bookmarks = {
 				EST_unite_our_nations
 			}
 		}
+		"IRQ"={
+			minor = yes
+			history = "IRQ_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				EST_vaps_idea_1
+				democratic_opposition
+			}
+			focuses = {
+				EST_era_of_silence
+				EST_fight_the_vaps
+				EST_unite_our_nations
+			}
+		}
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
