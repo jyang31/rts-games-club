@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		add_core_of = IRE
-		owner = IRE
+		add_core_of = TEH
+		owner = TEH
 		victory_points = {
 			3273 15
 		}
@@ -30,7 +30,6 @@ state={
 			}
 
 		}
-		add_core_of = ENG
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

@@ -1,0 +1,452 @@
+focus_tree = {
+	id = tehcude_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TEH
+		}
+	}
+	#Focus for The Belt Road Initiative
+	focus = {
+		id = TEH_the_belt_road_initiative
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 9
+		y = 1
+		cost = 15
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 10 }
+		}
+	}
+
+	#Focus for Expand into Laxxer's Reich
+	focus = {
+		id = TEH_expand_into_laxxers_reich
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_the_belt_road_initiative }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+	}
+
+	#Focus for Expand into Jermany
+	focus = {
+		id = TEH_expand_into_jermany
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_the_belt_road_initiative }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+	}
+
+	#Focus for Expand into Ordenstaat Thanos
+	focus = {
+		id = TEH_expand_into_ordenstaat_thanos
+		icon = GFX_goal_unknown
+		x = 17
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_the_belt_road_initiative }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+	}
+
+	#Focus for Jan Investment Project
+	focus = {
+		id = TEH_jan_investment_project
+		icon = GFX_goal_unknown
+		x = 9
+		y = 2
+		cost = 4
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_the_belt_road_initiative }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+	}
+
+	#Focus for Jan's Heavy Industries
+	focus = {
+		id = TEH_jans_heavy_industries
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_jan_investment_project }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand into Oceania
+	focus = {
+		id = TEH_expand_into_oceania
+		icon = GFX_goal_unknown
+		x = 14
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_the_belt_road_initiative }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+	}
+
+	#Focus for Jan's Armament Industries
+	focus = {
+		id = TEH_jans_armament_industries
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_jan_investment_project }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Modernization of Industry
+	focus = {
+		id = TEH_modernization_of_industry
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_jans_heavy_industries }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Optimize Production Lines
+	focus = {
+		id = TEH_optimize_production_lines
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_jans_armament_industries }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Cross Atlantic Prosperity Union
+	focus = {
+		id = TEH_the_cross_atlantic_prosperity_union
+		icon = GFX_goal_unknown
+		x = 9
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEH_optimize_production_lines 
+		}
+		prerequisite = { 
+			focus = TEH_modernization_of_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Unthinkable
+	focus = {
+		id = TEH_the_unthinkable
+		icon = GFX_goal_unknown
+		x = 13
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEH_economic_devolution 
+		}
+		prerequisite = { 
+			focus = TEH_the_cross_atlantic_prosperity_union 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Embrace Individualism
+	focus = {
+		id = TEH_embrace_individualism
+		icon = GFX_goal_unknown
+		x = 23
+		y = 2
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_the_left }
+		mutually_exclusive = { focus = TEH_establish_the_london_soviet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Left
+	focus = {
+		id = TEH_the_left
+		icon = GFX_goal_unknown
+		x = 31
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Centre
+	focus = {
+		id = TEH_the_centre
+		icon = GFX_goal_unknown
+		x = 43
+		y = 1
+		cost = 2
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Economic Devolution
+	focus = {
+		id = TEH_economic_devolution
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		cost = 7
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_embrace_individualism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEH_barter_economy
+		}
+	}
+
+	#Focus for Unity by Division
+	focus = {
+		id = TEH_unity_by_division
+		icon = GFX_goal_unknown
+		x = 23
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_embrace_individualism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEH_unity_by_division
+		}
+	}
+
+	#Focus for The Single Thread
+	focus = {
+		id = TEH_the_single_thread
+		icon = GFX_goal_unknown
+		x = 24
+		y = 4
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEH_embrace_individualism 
+		}
+		prerequisite = { 
+			focus = TEH_unity_by_division 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEH_the_single_thread
+		}
+	}
+
+	#Focus for The Anarchist World Revolution
+	focus = {
+		id = TEH_the_anarchist_world_revolution
+		icon = GFX_goal_unknown
+		x = 23
+		y = 5
+		cost = 15
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEH_the_single_thread 
+		}
+		prerequisite = { 
+			focus = TEH_economic_devolution 
+		}
+		prerequisite = { 
+			focus = TEH_unity_by_division 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEH_the_anarchist_world_revolution
+		}
+	}
+
+	#Focus for Laxxer-TEHCUDE Tank Treaty
+	focus = {
+		id = TEH_laxxertehcude_tank_treaty
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_expand_into_laxxers_reich }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Establish the London Soviet
+	focus = {
+		id = TEH_establish_the_london_soviet
+		icon = GFX_goal_unknown
+		x = 31
+		y = 2
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_the_left }
+		mutually_exclusive = { focus = TEH_embrace_individualism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Press The Attack
+	focus = {
+		id = TEH_press_the_attack
+		icon = GFX_goal_unknown
+		x = 13
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TEH_the_anarchist_world_revolution 
+		}
+		prerequisite = { 
+			focus = TEH_the_unthinkable 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Each Man For Himself
+	focus = {
+		id = TEH_each_man_for_himself
+		icon = GFX_goal_unknown
+		x = 21
+		y = 6
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_the_anarchist_world_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEH_each_man_for_himself
+		}
+	}
+
+	#Focus for A Stateless Society
+	focus = {
+		id = TEH_a_stateless_society
+		icon = GFX_goal_unknown
+		x = 25
+		y = 6
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_the_anarchist_world_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEH_stateless_society
+		}
+	}
+
+	#Focus for The Unholy Project
+	focus = {
+		id = TEH_the_unholy_project
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_expand_into_jermany }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revive the Chemistry Class Times
+	focus = {
+		id = TEH_revive_the_chemistry_class_times
+		icon = GFX_goal_unknown
+		x = 17
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_expand_into_ordenstaat_thanos }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rule the Waves
+	focus = {
+		id = TEH_rule_the_waves
+		icon = GFX_goal_unknown
+		x = 14
+		y = 3
+		cost = 2
+		available_if_capitulated = yes
+		prerequisite = { focus = TEH_expand_into_oceania }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

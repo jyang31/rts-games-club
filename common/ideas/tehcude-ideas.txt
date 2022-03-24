@@ -1,0 +1,97 @@
+ideas = {
+	country = {
+
+		TEH_the_anarchist_world_revolution = {
+			ledger = army
+			picture = #Image not found
+			allowed = {
+				tag = TEH
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.1
+army_attack_factor = 0.1
+army_defence_factor = -0.1
+			}
+		}
+
+		TEH_barter_economy = {
+			picture = #Image not found
+			allowed = {
+				tag = TEH
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.1
+
+production_speed_industrial_complex_factor = -0.20
+
+production_speed_arms_factory_factor = -0.20
+
+production_speed_buildings_factor = 0.3
+
+industrial_capacity_factory = 0.2
+
+stability_weekly = -1
+			}
+		}
+
+		TEH_unity_by_division = {
+			picture = #Image not found
+			allowed = {
+				tag = TEH
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+
+stability_weekly = 0.01
+
+war_support_weekly = 0.05
+			}
+		}
+
+		TEH_the_single_thread = {
+			picture = #Image not found
+			allowed = {
+				tag = TEH
+			}
+			removal_cost = -1
+			modifier = {
+				stability_weekly = 0.05
+
+communism_drift = 1
+			}
+		}
+
+		TEH_stateless_society = {
+			picture = #Image not found
+			allowed = {
+				tag = TEH
+			}
+			removal_cost = -1
+			modifier = {
+				stability_weekly = -10
+
+war_support_weekly = 2
+
+production_factory_max_efficiency_factor = 0.2
+
+production_factory_efficiency_gain_factor = -0.2
+			}
+		}
+
+		TEH_each_man_for_himself = {
+			picture = #Image not found
+			allowed = {
+				tag = TEH
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+
+army_org_factor = -0.1
+			}
+		}
+	}
+}
