@@ -7,7 +7,6 @@ ideas = {
 			allowed = {
 				tag = TEH
 			}
-			removal_cost = -1
 			modifier = {
 				conscription = 0.1
 army_attack_factor = 0.1
@@ -20,13 +19,12 @@ army_defence_factor = -0.1
 			allowed = {
 				tag = TEH
 			}
-			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = -0.1
 
-production_speed_industrial_complex_factor = -0.20
+production_speed_industrial_complex_factor = -0.66
 
-production_speed_arms_factory_factor = -0.20
+production_speed_arms_factory_factor = -0.66
 
 production_speed_buildings_factor = 0.3
 
@@ -41,13 +39,12 @@ stability_weekly = -1
 			allowed = {
 				tag = TEH
 			}
-			removal_cost = -1
 			modifier = {
 				conscription = 0.05
 
-stability_weekly = 0.01
+stability_weekly = 1
 
-war_support_weekly = 0.05
+war_support_weekly = 5
 			}
 		}
 
@@ -56,9 +53,8 @@ war_support_weekly = 0.05
 			allowed = {
 				tag = TEH
 			}
-			removal_cost = -1
 			modifier = {
-				stability_weekly = 0.05
+				stability_weekly = 5
 
 communism_drift = 1
 			}
@@ -69,7 +65,6 @@ communism_drift = 1
 			allowed = {
 				tag = TEH
 			}
-			removal_cost = -1
 			modifier = {
 				stability_weekly = -10
 
@@ -86,11 +81,43 @@ production_factory_efficiency_gain_factor = -0.2
 			allowed = {
 				tag = TEH
 			}
-			removal_cost = -1
 			modifier = {
 				conscription = 0.05
 
 army_org_factor = -0.1
+			}
+		}
+
+		TEH_foreign_investments__1 = {
+			picture = spr_relocate_the_gold_reserves
+			modifier = {
+				consumer_goods_factor = -0.02
+
+production_speed_buildings_factor = 0.05
+
+industrial_capacity_factory = 0.05
+			}
+		}
+
+		TEH_foreign_investments__2 = {
+			picture = spr_relocate_the_gold_reserves
+			modifier = {
+				consumer_goods_factor = -0.03
+
+production_speed_buildings_factor = 0.07
+
+industrial_capacity_factory = 0.07
+			}
+		}
+
+		TEH_foreign_investments__3 = {
+			picture = spr_seize_the_gold_reserves
+			modifier = {
+				consumer_goods_factor = -0.1
+
+production_speed_buildings_factor = 0.15
+
+industrial_capacity_factory = 0.15
 			}
 		}
 	}

@@ -20,6 +20,19 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 10 }
+			every_country = {
+				if = {
+					limit = {
+						NOT = {
+							tag = TEH
+						}
+					}
+					country_event= {
+						days = 1 
+						id = rts.2
+					}
+				}
+			}
 		}
 	}
 
@@ -29,7 +42,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 2
 		y = 2
-		cost = 2
+		cost = 3
 		available_if_capitulated = yes
 		prerequisite = { focus = TEH_the_belt_road_initiative }
 		ai_will_do = {
@@ -46,7 +59,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 5
 		y = 2
-		cost = 2
+		cost = 3
 		available_if_capitulated = yes
 		prerequisite = { focus = TEH_the_belt_road_initiative }
 		ai_will_do = {
@@ -63,7 +76,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 17
 		y = 2
-		cost = 2
+		cost = 3
 		available_if_capitulated = yes
 		prerequisite = { focus = TEH_the_belt_road_initiative }
 		ai_will_do = {
@@ -111,7 +124,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 14
 		y = 2
-		cost = 2
+		cost = 3
 		available_if_capitulated = yes
 		prerequisite = { focus = TEH_the_belt_road_initiative }
 		ai_will_do = {
@@ -255,9 +268,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {
-			add_ideas= TEH_barter_economy
-		}
 	}
 
 	#Focus for Unity by Division
@@ -271,9 +281,6 @@ focus_tree = {
 		prerequisite = { focus = TEH_embrace_individualism }
 		ai_will_do = {
 			factor = 1
-		}
-		completion_reward = {
-			add_ideas= TEH_unity_by_division
 		}
 	}
 
@@ -293,9 +300,6 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
-		}
-		completion_reward = {
-			add_ideas= TEH_the_single_thread
 		}
 	}
 
@@ -320,7 +324,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas= TEH_the_anarchist_world_revolution
+			news_event= rts.1
+
+add_ideas= TEH_the_anarchist_world_revolution
 		}
 	}
 
@@ -384,9 +390,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {
-			add_ideas= TEH_each_man_for_himself
-		}
 	}
 
 	#Focus for A Stateless Society
@@ -400,9 +403,6 @@ focus_tree = {
 		prerequisite = { focus = TEH_the_anarchist_world_revolution }
 		ai_will_do = {
 			factor = 1
-		}
-		completion_reward = {
-			add_ideas= TEH_stateless_society
 		}
 	}
 
