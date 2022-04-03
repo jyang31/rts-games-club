@@ -268,6 +268,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_ideas= TEH_barter_economy
+		}
 	}
 
 	#Focus for Unity by Division
@@ -276,11 +279,14 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 23
 		y = 3
-		cost = 2
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = TEH_embrace_individualism }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEH_unity_by_division
 		}
 	}
 
@@ -301,6 +307,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_ideas= TEH_the_single_thread
+		}
 	}
 
 	#Focus for The Anarchist World Revolution
@@ -309,7 +318,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 23
 		y = 5
-		cost = 15
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = TEH_the_single_thread 
@@ -384,11 +393,14 @@ add_ideas= TEH_the_anarchist_world_revolution
 		icon = GFX_goal_unknown
 		x = 21
 		y = 6
-		cost = 2
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = TEH_the_anarchist_world_revolution }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEH_each_man_for_himself
 		}
 	}
 
@@ -398,11 +410,14 @@ add_ideas= TEH_the_anarchist_world_revolution
 		icon = GFX_goal_unknown
 		x = 25
 		y = 6
-		cost = 2
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = TEH_the_anarchist_world_revolution }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TEH_stateless_society
 		}
 	}
 
