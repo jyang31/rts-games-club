@@ -475,7 +475,7 @@ CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
 }
-D01 = {
+FCB = {
 	color = rgb { 122 179 97 }
 	color_ui = rgb { 159 233 126 }
 }

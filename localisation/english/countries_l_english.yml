@@ -61,7 +61,21 @@
  TEH:0 "TEHCUDIA"
  TEH_DEF:0 "TEHCUDIA"
  TEH_ADJ:0 "Russian"
-
+ FCB_fascism:0 "TEHCUDIAN Empire"
+ FCB_fascism_DEF:0 "the TEHCUDIAN Empire"
+ FCB_democratic:0 "TEHCUDIAN Republic"
+ FCB_democratic_DEF:0 "the TEHCUDIAN Republic"
+ FCB_neutrality:0 "Free City oF Bronia"
+ FCB_neutrality_DEF:0 "Free City oF Bronia"
+ FCB_communism:0 "Union of TEHCUDE"
+ FCB_communism_DEF:0 "Union of TEHCUDE"
+ FCB_fascism_ADJ:0 "TEHCUDIAN"
+ FCB_democratic_ADJ:0 "TEHCUDIAN"
+ FCB_neutrality_ADJ:0 "TEHCUDIAN"
+ FCB_communism_ADJ:0 "TEHCUDIAN"
+ FCB:0 "TEHCUDIA"
+ FCB_DEF:0 "TEHCUDIA"
+ FCB_ADJ:0 "Russian"
 
 
  USA_fascism:0 "Free American Empire"
