@@ -1,3 +1,9 @@
 spriteTypes = { 
+	##Icon For: TEHCUDE - Laxxer Tank Treaty
+	SpriteType = { 
+		name = "tehcude__laxxer_tank_treaty-131026"
+		texturefile = "gfx/interface/event_gfx/tehcude__laxxer_tank_treaty-131026.dds"
+	}
+
  
  }
